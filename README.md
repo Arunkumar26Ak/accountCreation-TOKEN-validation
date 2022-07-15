@@ -4,12 +4,39 @@
   
   Name : Arunkumar A
   
+  Email : arunanbu.ani97@gmail.com
+    
   Date : July/15/2022
 
 #########################################
 
 
-createAccount request :
+# Software requirement
+
+Back-end :Python - Django (DRF)
+
+Database : MySql
+
+mySql dump file name : commercial_database.sql
+
+
+# Environment setup
+Install :
+
+python3 -m venv ecartEnv
+
+pip3 install -r requirements.txt
+
+Run : python3 manage.py migrate
+
+python3 manage.py makemigrations
+
+python3 manage.py runserver
+
+
+# Sample Api Request and response
+
+# createAccount request :
 url : http://localhost:8000/createAccount
 
 request : 
@@ -34,7 +61,7 @@ Response :
 
 #########################################
 
-Signin to create Token:
+# Signin to create Token:
 URL : http://localhost:8000/signin
 
 Request :
@@ -60,7 +87,7 @@ Response :
 
 #########################################
 
-Sample CURD oprations moduele with token validation 
+# Sample CURD oprations moduele with token validation 
 
 Sample token headers : 
 
